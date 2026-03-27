@@ -12,15 +12,18 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Section 109(g) -- The 180-Day Bankruptcy Filing Bar | 109g.org</title>
-<meta name="description" content="Plain-English guide to the 180-day bankruptcy filing bar under 11 U.S.C. Section 109(g). Learn the two triggers, how the 180 days is calculated, what happens if you file too early, and interaction with repeat filer stay limits.">
+<meta name="description" content="If your bankruptcy case was dismissed, Section 109(g) may bar you from filing again for 180 days. Learn the two triggers -- voluntary dismissal after a stay relief motion and willful failure to obey court orders -- and what you can do.">
 <meta name="keywords" content="109g filing bar, 180 day bankruptcy bar, dismissed bankruptcy refile, Section 109(g), willful failure to obey court orders, voluntary dismissal after stay relief, bankruptcy filing bar, 180 day rule bankruptcy, can I refile bankruptcy after dismissal">
 <link rel="canonical" href="https://109g.org/">
 <link rel="alternate" hreflang="en" href="https://109g.org/">
-<!-- TODO: Add Spanish version (index-es.html) and hreflang="es" link -->
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="manifest" href="/manifest.json">
+<meta name="theme-color" content="#0d1117">
+<meta name="last-modified" content="2026-03-27">
 
 <!-- Open Graph -->
 <meta property="og:title" content="Section 109(g) -- The 180-Day Bankruptcy Filing Bar">
-<meta property="og:description" content="Plain-English guide to the 180-day filing bar under 11 U.S.C. Section 109(g). The two triggers, how it works, and what happens if you file too early.">
+<meta property="og:description" content="If your bankruptcy case was dismissed, you may have to wait 180 days before filing again. Learn the two triggers and what you can do.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://109g.org/">
 <meta property="og:site_name" content="109g.org">
@@ -28,12 +31,9 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Section 109(g) -- The 180-Day Bankruptcy Filing Bar">
-<meta name="twitter:description" content="Plain-English guide to the 180-day filing bar under 11 U.S.C. Section 109(g). The two triggers, how it works, and what happens if you file too early.">
+<meta name="twitter:description" content="If your bankruptcy case was dismissed, you may have to wait 180 days before filing again. Learn the two triggers and what you can do.">
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
-<link rel="manifest" href="/manifest.json">
-<meta name="theme-color" content="#0d1117">
-<meta name="last-modified" content="2026-03-26">
+<!-- Organization Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -49,12 +49,14 @@
     "https://341meeting.org",
     "https://523a.org",
     "https://109g.org",
-    "https://727a8.org",
     "https://727a8.com",
+    "https://727a8.org",
     "https://relieffromstay.org",
     "https://dischargeinjunction.org",
     "https://dischargeinjunction.com",
-    "https://prosedebtors.org"
+    "https://prosedebtors.org",
+    "https://serialfiler.org",
+    "https://dismissedbankruptcy.org"
   ]
 }
 </script>
@@ -78,7 +80,7 @@
       "name": "What triggers the 180-day filing bar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Two situations trigger the bar. Under 109(g)(1), the bar applies if your prior case was dismissed for willful failure to obey court orders or to appear before the court as required. Under 109(g)(2), it applies if you voluntarily dismissed your case after a creditor filed a motion for relief from the automatic stay. Both triggers create the same 180-day waiting period from the date of the dismissal order."
+        "text": "Two situations trigger the bar. Under 109(g)(1), it applies if your prior case was dismissed for willful failure to obey court orders or to appear before the court as required. Under 109(g)(2), it applies if you voluntarily dismissed your case after a creditor filed a motion for relief from the automatic stay. Both triggers create the same 180-day waiting period from the date of the dismissal order."
       }
     },
     {
@@ -94,15 +96,7 @@
       "name": "How is the 180-day period calculated?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The 180-day period runs from the date the dismissal order is entered by the court. It is counted in calendar days, not business days -- weekends and holidays are included. There is no tolling or pausing of the clock for any reason. If your case was dismissed on January 1, you can file a new petition on July 1 (the 181st day)."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What happens if I file a new bankruptcy case during the 180-day bar period?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "If you file during the 180-day window, the outcome depends on your jurisdiction. Some courts treat Section 109(g) as jurisdictional and will dismiss the case on their own, even if no party raises the issue. Other courts treat it as waivable, meaning the case can proceed unless a creditor, the trustee, or the U.S. Trustee objects. Filing during the bar period risks dismissal, wasted filing fees, and further complications for future filings."
+        "text": "The 180-day period runs from the date the dismissal order is entered by the court. It is counted in calendar days, not business days -- weekends and holidays are included. If your case was dismissed on January 1, you can file a new petition on July 1 (the 181st day)."
       }
     },
     {
@@ -110,7 +104,7 @@
       "name": "Does voluntary dismissal always trigger the 180-day bar?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "No. The 180-day bar under Section 109(g)(2) only applies to voluntary dismissals that follow a creditor's motion for relief from the automatic stay. If you voluntarily dismiss your case and no creditor has filed a stay relief motion, the bar does not apply. Courts are also split on whether the dismissal must have been caused by the stay relief motion (the causal connection test from In re Frieouf) or whether timing alone is enough."
+        "text": "No. The bar under Section 109(g)(2) only applies to voluntary dismissals that follow a creditor's motion for relief from the automatic stay. If you voluntarily dismiss your case and no creditor has filed a stay relief motion, the bar does not apply. Courts are split on whether the dismissal must have been caused by the stay relief motion (the causal connection test from In re Frieouf, 938 F.2d 1099 (10th Cir. 1992)) or whether timing alone is enough."
       }
     }
   ]
@@ -379,10 +373,6 @@
     text-decoration: none;
   }
 
-  /* FAQ styling */
-  .faq-item { margin-bottom: 1.25rem; }
-  .faq-item h3 { margin-top: 0; }
-
   /* Network footer */
   .network-footer {
     background: var(--surface);
@@ -414,6 +404,36 @@
     color: var(--text-muted);
   }
 
+  /* Page cards grid */
+  .page-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+    margin: 1.5rem 0;
+  }
+  .page-card {
+    background: #21262d;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 1.5rem;
+    transition: border-color 0.2s;
+  }
+  .page-card:hover { border-color: var(--accent); }
+  .page-card h3 {
+    color: #f0f6fc;
+    font-size: 1rem;
+    margin: 0 0 0.5rem;
+  }
+  .page-card p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+  }
+  .page-card a {
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+
   @media (max-width: 600px) {
     header h1 { font-size: 1.5rem; }
     main { padding: 1.5rem 1rem; }
@@ -434,26 +454,21 @@
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
 <nav role="navigation" aria-label="Site navigation">
-  <a href="https://109g.org/" class="site-name">109g.org</a>
+  <a href="/" class="site-name">109g.org</a>
   <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false" onclick="var n=this.nextElementSibling;var open=n.classList.toggle('open');this.setAttribute('aria-expanded',open);">&#9776;</button>
   <div class="nav-links">
-    <a href="https://1328f.com">1328f.com</a>
-    <a href="https://1328f.org">1328f.org</a>
-    <a href="https://automaticstay.org">automaticstay.org</a>
-    <a href="https://meanstest.org">meanstest.org</a>
-    <a href="https://341meeting.org">341meeting.org</a>
-    <a href="https://523a.org">523a.org</a>
-    <a href="https://109g.org" class="active">109g.org</a>
-    <a href="https://727a8.com">727a8.com</a>
-    <a href="https://relieffromstay.org">relieffromstay.org</a>
-    <a href="https://dischargeinjunction.com">dischargeinjunction.com</a>
-    <a href="https://prosedebtors.org">prosedebtors.org</a>
+    <a href="/" class="active">Home</a>
+    <a href="/voluntary-dismissal.html">Voluntary Dismissal</a>
+    <a href="/willful-failure.html">Willful Failure</a>
+    <a href="/calculator.html">Calculator</a>
+    <a href="/how-to-get-around-it.html">During the 180 Days</a>
+    <a href="/vs-other-bars.html">Compare Bars</a>
   </div>
 </nav>
 
 <header>
-  <h1>Section <span class="accent">109(g)</span> -- The 180-Day Bankruptcy Filing Bar</h1>
-  <p class="subtitle">A plain-language guide to the federal law that prevents you from filing a new bankruptcy case for 180 days after certain dismissals.</p>
+  <h1>Section <span class="accent">109(g)</span> -- The 180-Day Filing Bar</h1>
+  <p class="subtitle">If your bankruptcy case was dismissed, you may have to wait 180 days before filing again. Two triggers. One statute. No exceptions while the clock runs.</p>
 </header>
 
 <div class="breadcrumb" aria-label="Breadcrumb">
@@ -462,298 +477,123 @@
 
 <main id="main-content">
 
-  <!-- Section 1: What is Section 109(g)? -->
+  <!-- What is 109(g)? -->
   <div class="content-section">
     <h2>What Is Section 109(g)?</h2>
-    <p>Section 109(g) of the Bankruptcy Code is a <strong>filing bar</strong> -- a federal law that prevents you from being a debtor in any bankruptcy case for 180 days after a prior case was dismissed under specific circumstances. It is one of the harshest consequences a debtor can face, because unlike a discharge bar (which still lets you file and receive the automatic stay), a filing bar means <strong>you cannot file at all</strong>. No case is opened. No automatic stay takes effect. Creditors can foreclose, repossess, garnish, and sue you with no bankruptcy protection available.</p>
-    <p>The statute targets two specific situations where Congress concluded a debtor had either defied the court's authority or abused the bankruptcy process by gaming the automatic stay. If your prior case was dismissed for one of these two reasons, the door to bankruptcy court is closed for six months.</p>
+    <p>Section 109(g) of the Bankruptcy Code is a <strong>filing bar</strong> -- a federal law that prevents you from being a debtor in any bankruptcy case for 180 days after a prior case was dismissed under specific circumstances. Unlike a discharge bar (which still lets you file and receive the automatic stay), a filing bar means <strong>you cannot file at all</strong>. No case is opened. No automatic stay takes effect. Creditors can foreclose, repossess, garnish, and sue you with no bankruptcy protection available.</p>
+
+    <p>The statute targets two specific situations where Congress concluded a debtor had either defied the court's authority or abused the bankruptcy process by gaming the automatic stay.</p>
 
     <div class="statute-box">
       <p><strong>11 U.S.C. Section 109(g):</strong> "Notwithstanding any other provision of this section, no individual ... may be a debtor under this title who has been a debtor in a case pending under this title at any time in the preceding 180 days if -- (1) the case was dismissed by the court for willful failure of the debtor to abide by orders of the court, or to appear before the court in proper prosecution of the case; or (2) the debtor requested and obtained the voluntary dismissal of the case following the filing of a request for relief from the automatic stay provided by section 362 of this title."</p>
     </div>
 
-    <p>This provision exists alongside -- but is separate from -- the discharge bars under Sections 727(a)(8), 727(a)(9), and 1328(f), which prevent a debtor from receiving a discharge based on a prior discharge (not a prior dismissal). It is also separate from the repeat-filer automatic stay limitations under Sections 362(c)(3) and 362(c)(4), which reduce or eliminate the automatic stay for serial filers. Understanding the differences between these three layers of protection is critical for anyone who has had a prior case dismissed and is considering refiling.</p>
-
     <div class="green-box">
-      <p><strong>The good news:</strong> Most dismissals do not trigger Section 109(g). If your case was dismissed because you could not make plan payments, missed a routine filing deadline, failed to complete credit counseling, or decided to voluntarily dismiss without a pending stay relief motion, the 180-day filing bar does not apply to you. You may be able to refile immediately.</p>
+      <p><strong>Good news:</strong> Most dismissals do not trigger Section 109(g). If your case was dismissed because you could not make plan payments, missed a routine filing deadline, failed to complete credit counseling, or decided to voluntarily dismiss without a pending stay relief motion, the 180-day filing bar does not apply to you. You may be able to refile immediately.</p>
     </div>
   </div>
 
-  <!-- Section 2: 109(g)(1) -->
+  <!-- The Two Triggers -->
   <div class="content-section">
-    <h2>109(g)(1) -- Voluntary Dismissal After a Motion for Relief from Stay</h2>
-    <p>Wait -- that heading might look reversed. It is not. Let us start with the second prong first, because it is the more common one in practice. (We will cover 109(g)(1) in the next section.)</p>
-    <p>Actually, let us cover them in order as the statute presents them.</p>
+    <h2>The Two Triggers</h2>
 
-    <h2>109(g)(1) -- Dismissed for Willful Failure to Obey Court Orders or Appear</h2>
-    <p>Under Section 109(g)(1), the 180-day filing bar applies when a bankruptcy court <strong>dismisses your case because you willfully failed to follow court orders or failed to appear before the court</strong> as required. The key word is "willful" -- the failure must reflect a deliberate choice to ignore the court, not merely an honest mistake or unavoidable circumstance.</p>
+    <h3>109(g)(1) -- Willful Failure to Obey Court Orders or Appear</h3>
+    <p>The court dismissed your case because you willfully failed to follow court orders or failed to appear before the court as required. The key word is "willful" -- a deliberate choice to ignore the court, not merely an honest mistake or emergency.</p>
+    <p><a href="/willful-failure.html">Read the full guide to 109(g)(1) &rarr;</a></p>
 
-    <h3>What "willful" means</h3>
-    <p>Courts have interpreted "willful" to mean intentional or reflecting a conscious disregard for the court's authority. A debtor who receives a court order, understands what is required, and simply does not comply has acted willfully. A debtor who misses a deadline because of a genuine emergency, a misunderstanding about the date, or a failure by their attorney to communicate the deadline may not have acted willfully.</p>
-    <p>The distinction matters enormously. A dismissal order may say "dismissed for failure to file schedules" or "dismissed for failure to appear at the 341 meeting." But the question under 109(g)(1) is not whether the debtor failed -- it is whether the failure was <strong>willful</strong>. If the dismissal order does not specify that the failure was willful, there is an argument that 109(g)(1) does not apply.</p>
+    <h3>109(g)(2) -- Voluntary Dismissal After a Motion for Relief from Stay</h3>
+    <p>You voluntarily dismissed your case after a creditor filed a motion for relief from the automatic stay. This targets the abuse pattern of filing to stop a foreclosure, dismissing once the crisis passes, then refiling when the creditor tries again.</p>
+    <p>Courts are split on whether the dismissal must have been <em>caused by</em> the stay relief motion. The Tenth Circuit, in <em>In re Frieouf</em>, 938 F.2d 1099 (10th Cir. 1992), held that a causal connection is required.</p>
+    <p><a href="/voluntary-dismissal.html">Read the full guide to 109(g)(2) &rarr;</a></p>
+  </div>
 
-    <h3>Common scenarios that trigger 109(g)(1)</h3>
-    <ul>
-      <li><strong>Ignoring a court order to file documents.</strong> The court orders you to file your schedules, statement of financial affairs, or tax returns by a specific date. You do not file them and offer no explanation. The court dismisses for willful noncompliance.</li>
-      <li><strong>Failing to appear at the Section 341 meeting of creditors.</strong> The trustee schedules your 341 meeting. You do not show up, do not request a continuance, and do not explain your absence. The court dismisses for failure to appear.</li>
-      <li><strong>Repeatedly missing court-ordered deadlines.</strong> The court gives you a second (or third) chance to comply with an order. You miss the extended deadline. The pattern of noncompliance supports a finding of willfulness.</li>
-      <li><strong>Refusing to provide financial information to the trustee.</strong> The trustee requests bank statements, pay stubs, or other records. You ignore the requests. The trustee moves to dismiss, and the court grants the motion based on your willful failure to cooperate.</li>
-    </ul>
-
-    <h3>Scenarios that typically do NOT trigger 109(g)(1)</h3>
-    <ul>
-      <li><strong>Dismissal for failure to complete credit counseling.</strong> Section 109(h) requires pre-filing credit counseling. If you file without it and the case is dismissed, this is a procedural deficiency -- not willful disobedience of a court order.</li>
-      <li><strong>Dismissal for inability to make plan payments.</strong> If your Chapter 13 case is dismissed because you fell behind on plan payments due to job loss or medical issues, this is not a willful failure to obey a court order.</li>
-      <li><strong>Dismissal for failure to pass the means test.</strong> If your Chapter 7 case is dismissed under Section 707(b) because your income is too high, this has nothing to do with willful defiance.</li>
-      <li><strong>Administrative dismissal for failure to pay the filing fee.</strong> Courts have generally held that routine administrative dismissals do not constitute "willful failure to abide by orders of the court" unless the debtor's conduct was deliberately defiant.</li>
-    </ul>
-
-    <div class="yellow-box">
-      <p><strong>Attorney malpractice note:</strong> In high-volume bankruptcy practices, it is not uncommon for an attorney to fail to communicate a court order or deadline to a client. If the client does not comply because the attorney never told them about the order, the client's failure may not be "willful." The debtor may still face dismissal, but the 109(g)(1) filing bar should not apply if the debtor was never aware of the order. Whether the debtor has a malpractice claim against the attorney is a separate question.</p>
+  <!-- Explore the Site -->
+  <div class="content-section">
+    <h2>Explore This Site</h2>
+    <div class="page-grid">
+      <div class="page-card">
+        <h3>109(g)(1) -- Willful Failure</h3>
+        <p>What counts as "willful." When your attorney's mistake is not your fault. Common scenarios.</p>
+        <a href="/willful-failure.html">Read more &rarr;</a>
+      </div>
+      <div class="page-card">
+        <h3>109(g)(2) -- Voluntary Dismissal</h3>
+        <p>The stay relief motion sequence. The <em>Frieouf</em> causal connection debate. Strategic alternatives.</p>
+        <a href="/voluntary-dismissal.html">Read more &rarr;</a>
+      </div>
+      <div class="page-card">
+        <h3>180-Day Calculator</h3>
+        <p>Enter your dismissal date. Get your earliest eligible refiling date. Client-side, nothing stored.</p>
+        <a href="/calculator.html">Calculate &rarr;</a>
+      </div>
+      <div class="page-card">
+        <h3>During the 180 Days</h3>
+        <p>You cannot file, but you can prepare. Credit counseling, budgeting, document gathering, chapter selection.</p>
+        <a href="/how-to-get-around-it.html">Read more &rarr;</a>
+      </div>
+      <div class="page-card">
+        <h3>109(g) vs Other Bars</h3>
+        <p>Filing bars vs discharge bars vs stay limits. How 109(g), 727(a)(8), 1328(f), and 362(c)(3)/(4) interact and stack.</p>
+        <a href="/vs-other-bars.html">Compare &rarr;</a>
+      </div>
+      <div class="page-card">
+        <h3>Free Discharge Screener</h3>
+        <p>Check whether a prior case affects your eligibility to file and receive a discharge.</p>
+        <a href="https://1328f.com">Go to 1328f.com &rarr;</a>
+      </div>
     </div>
   </div>
 
-  <!-- Section 3: 109(g)(2) -->
+  <!-- Quick Reference Table -->
   <div class="content-section">
-    <h2>109(g)(2) -- Voluntary Dismissal After a Motion for Relief from Stay</h2>
-    <p>Under Section 109(g)(2), the 180-day filing bar applies when you <strong>voluntarily dismiss your own bankruptcy case after a creditor has filed a motion for relief from the automatic stay</strong>. This provision targets a specific abuse pattern that was common before its enactment: a debtor files bankruptcy to invoke the automatic stay and stop a foreclosure or repossession, then voluntarily dismisses the case once the immediate crisis passes, then refiles when the creditor tries again -- creating an endless cycle of filings and dismissals that prevent the creditor from ever reaching the collateral.</p>
-
-    <h3>Both conditions must be met</h3>
-    <p>For 109(g)(2) to apply, two things must have happened in sequence:</p>
-    <ol>
-      <li>A creditor filed a motion for relief from the automatic stay under Section 362(d).</li>
-      <li>After that motion was filed, you requested and obtained a voluntary dismissal of your case.</li>
-    </ol>
-    <p>If you voluntarily dismiss your case and no creditor has filed a motion for stay relief, 109(g)(2) does not apply. If a creditor filed a motion for stay relief but the court dismissed your case (rather than you requesting dismissal), 109(g)(2) does not apply -- though 109(g)(1) might, depending on the reason for the court-ordered dismissal.</p>
-
-    <h3>The causal connection debate</h3>
-    <p>Courts are divided on a critical question: does 109(g)(2) require the voluntary dismissal to be <em>caused by</em> the stay relief motion, or is mere timing enough?</p>
-
-    <div class="statute-box">
-      <p><strong>The <em>Frieouf</em> approach (causal connection required):</strong> The Tenth Circuit, in <em>In re Frieouf</em>, 938 F.2d 1099 (10th Cir. 1992), held that a causal connection is required. Under this approach, the debtor must have dismissed the case <em>because of</em> the pending stay relief motion -- not merely after it was filed. If you can show your voluntary dismissal was for an unrelated reason (for example, you found a non-bankruptcy solution to your debts), the 180-day bar does not apply even though the timing overlapped.</p>
-    </div>
-
-    <div class="warning-box">
-      <p><strong>The literal approach (timing is enough):</strong> Other courts read the statute more strictly. If a stay relief motion was filed and the debtor then voluntarily dismissed, the bar applies -- period. The debtor's subjective reasons for dismissing are irrelevant. Under this approach, the only way to avoid the bar is to avoid the sequence: do not voluntarily dismiss while a stay relief motion is pending.</p>
-    </div>
-
-    <p>Which approach applies to you depends on your circuit and sometimes your individual judge. Before voluntarily dismissing a case where a creditor has filed a stay relief motion, understand how courts in your district interpret this provision. The stakes are high: if you dismiss and the bar applies, you cannot refile for 180 days, and you lose all bankruptcy protection during that period.</p>
-
-    <h3>Strategic considerations</h3>
-    <p>If a creditor has filed a stay relief motion and you are considering voluntary dismissal, you have several options to consider:</p>
-    <ul>
-      <li><strong>Let the court decide the stay relief motion</strong> rather than dismissing. If the court grants stay relief on the specific property, you lose stay protection for that asset but keep your case open for everything else. No 109(g)(2) issue arises.</li>
-      <li><strong>Negotiate with the creditor.</strong> Many stay relief motions are resolved by agreement -- the debtor agrees to adequate protection payments, and the creditor withdraws the motion. If the motion is withdrawn before you dismiss, the sequence that triggers 109(g)(2) may not be complete.</li>
-      <li><strong>Document your reasons for dismissal.</strong> If you are in a jurisdiction that follows the <em>Frieouf</em> causal connection test, document that your dismissal is for reasons unrelated to the stay relief motion. This creates a record you can point to if the issue comes up in a future filing.</li>
-    </ul>
-  </div>
-
-  <!-- Section 4: How the 180 Days Is Calculated -->
-  <div class="content-section">
-    <h2>How the 180 Days Is Calculated</h2>
-    <p>The 180-day period is straightforward to calculate, but getting it wrong can have serious consequences.</p>
-
-    <h3>Start date: the date of the dismissal order</h3>
-    <p>The clock starts on the date the court enters the order of dismissal. This is the date stamped on the court's docket -- not the date you received notice, not the date you learned about the dismissal, and not the date the dismissal became final. If the dismissal order was entered on January 15, that is day one.</p>
-    <p>This differs from discharge bars under Sections 727(a)(8), 727(a)(9), and 1328(f), which run from <strong>filing date to filing date</strong>. The filing bar runs from <strong>dismissal date</strong>.</p>
-
-    <h3>Calendar days, not business days</h3>
-    <p>The 180-day period is counted in calendar days. Saturdays, Sundays, and federal holidays all count. There is no tolling provision -- the clock does not pause for any reason, including pending appeals of the dismissal order.</p>
-
-    <h3>When you can refile</h3>
-    <p>You can file a new petition on the <strong>181st day</strong> after the dismissal order was entered. Here are examples:</p>
+    <h2>Quick Reference: When Does 109(g) Apply?</h2>
     <table>
       <tr>
-        <th scope="col">Dismissal date</th>
-        <th scope="col">Earliest refiling date</th>
+        <th scope="col">Reason for Dismissal</th>
+        <th scope="col">109(g) Applies?</th>
       </tr>
       <tr>
-        <td>January 1</td>
-        <td>July 1 (181st day)</td>
+        <td>Willful failure to obey court orders</td>
+        <td><strong style="color:var(--red)">Yes -- 109(g)(1)</strong></td>
       </tr>
       <tr>
-        <td>March 15</td>
-        <td>September 11</td>
+        <td>Willful failure to appear before the court</td>
+        <td><strong style="color:var(--red)">Yes -- 109(g)(1)</strong></td>
       </tr>
       <tr>
-        <td>July 4</td>
-        <td>December 31</td>
+        <td>Voluntary dismissal after stay relief motion filed</td>
+        <td><strong style="color:var(--red)">Yes -- 109(g)(2)</strong></td>
       </tr>
       <tr>
-        <td>October 1</td>
-        <td>March 30 (of the following year)</td>
+        <td>Could not make plan payments</td>
+        <td><strong style="color:var(--green)">No</strong></td>
+      </tr>
+      <tr>
+        <td>Failed to complete credit counseling</td>
+        <td><strong style="color:var(--green)">No</strong></td>
+      </tr>
+      <tr>
+        <td>Failed means test (707(b) dismissal)</td>
+        <td><strong style="color:var(--green)">No</strong></td>
+      </tr>
+      <tr>
+        <td>Voluntary dismissal with no pending stay relief motion</td>
+        <td><strong style="color:var(--green)">No</strong></td>
+      </tr>
+      <tr>
+        <td>Administrative dismissal (filing fee not paid)</td>
+        <td><strong style="color:var(--green)">Generally no</strong></td>
       </tr>
     </table>
-
-    <div class="statute-box">
-      <p><strong>Counting tip:</strong> If you are unsure, use a calendar and count 180 days forward from the dismissal date. The day after that -- day 181 -- is your earliest filing date. When in doubt, add an extra day. Filing one day early risks the entire case being dismissed.</p>
-    </div>
-  </div>
-
-  <!-- Section 5: What Happens If You File Too Early -->
-  <div class="content-section">
-    <h2>What Happens If You File Too Early</h2>
-    <p>Filing a new bankruptcy petition during the 180-day bar period is a serious problem, but the consequences depend on your jurisdiction.</p>
-
-    <h3>The jurisdictional vs. waivable split</h3>
-    <p>Courts are divided on whether Section 109(g) is <strong>jurisdictional</strong> (the court must enforce it on its own, even if no party raises it) or <strong>waivable</strong> (it only applies if a creditor, the trustee, or the U.S. Trustee objects).</p>
-
-    <div class="warning-box">
-      <p><strong>Jurisdictional approach:</strong> In jurisdictions that treat 109(g) as jurisdictional, the court will dismiss your case even if no one objects. The clerk's office may catch the premature filing through automated checks, or the judge may identify it during routine review. The result is dismissal, loss of your filing fee, and a fresh black mark on your filing history.</p>
-    </div>
-
-    <div class="green-box">
-      <p><strong>Waivable approach:</strong> In jurisdictions that treat 109(g) as waivable, your case can proceed if no party raises the issue. In practice, this means the U.S. Trustee, the case trustee, or a creditor would need to file an objection or motion to dismiss based on the filing bar. If none of them check (or care), the case may move forward. But this is a gamble -- any creditor can raise the issue at any time during the case.</p>
-    </div>
-
-    <h3>Practical consequences of filing too early</h3>
-    <ul>
-      <li><strong>Dismissal of the new case.</strong> The most direct consequence. Your case is dismissed, you lose whatever filing fee you paid, and the automatic stay (if it took effect at all) is terminated.</li>
-      <li><strong>No automatic stay protection.</strong> In some jurisdictions, a case filed in violation of 109(g) is treated as void from the beginning -- meaning no automatic stay ever existed. Creditors who took action during the "case" did not violate the stay because there was no valid case to create one.</li>
-      <li><strong>Compounding repeat-filer penalties.</strong> The premature filing may count as a prior dismissed case for purposes of Section 362(c)(3) and 362(c)(4), meaning your next legitimate filing could face reduced or eliminated automatic stay protection.</li>
-      <li><strong>Wasted attorney fees.</strong> If you hired an attorney for the premature filing, those fees are lost. The attorney may also face scrutiny for filing a case the attorney should have known was barred.</li>
-    </ul>
-
-    <div class="yellow-box">
-      <p><strong>Bottom line:</strong> Do not file during the 180-day window. Even in jurisdictions where the bar is technically waivable, the risks far outweigh any potential benefit. Wait until day 181. If you are facing an emergency (such as an imminent foreclosure sale), consult with an attorney about alternative options like state court remedies or negotiating directly with the creditor.</p>
-    </div>
-  </div>
-
-  <!-- Section 6: Interaction with 362(c)(3) and 362(c)(4) -->
-  <div class="content-section">
-    <h2>Interaction with Section 362(c)(3) and 362(c)(4) -- Repeat Filer Stay Limits</h2>
-    <p>Section 109(g) does not exist in isolation. It is part of a graduated system Congress built to deter serial bankruptcy filings. Even when the 180-day filing bar does not apply (or has expired), repeat filers face automatic stay limitations under Sections 362(c)(3) and 362(c)(4) that can dramatically reduce the protection a new filing provides.</p>
-
-    <h3>The three layers of serial filing consequences</h3>
-    <table>
-      <tr>
-        <th scope="col">Layer</th>
-        <th scope="col">Statute</th>
-        <th scope="col">What it does</th>
-        <th scope="col">Duration</th>
-      </tr>
-      <tr>
-        <td><strong>Filing bar</strong></td>
-        <td>109(g)</td>
-        <td>Cannot file at all</td>
-        <td>180 days from dismissal</td>
-      </tr>
-      <tr>
-        <td><strong>Reduced stay</strong></td>
-        <td>362(c)(3)</td>
-        <td>Stay expires after 30 days unless extended</td>
-        <td>Applies if 1 prior case dismissed in past year</td>
-      </tr>
-      <tr>
-        <td><strong>No stay</strong></td>
-        <td>362(c)(4)</td>
-        <td>No automatic stay at all unless court imposes one</td>
-        <td>Applies if 2+ prior cases dismissed in past year</td>
-      </tr>
-    </table>
-
-    <h3>How these interact in practice</h3>
-    <p>Consider a debtor whose Chapter 13 case is dismissed for willful failure to obey court orders. Here is what happens step by step:</p>
-    <ol>
-      <li><strong>Days 1-180:</strong> The debtor cannot file any new case under Section 109(g)(1). During this period, creditors can pursue all available remedies -- foreclosure, repossession, garnishment, lawsuits -- with no bankruptcy protection available.</li>
-      <li><strong>Day 181:</strong> The debtor can now file a new case. But because the prior case was dismissed within the past year, Section 362(c)(3) applies. The automatic stay in the new case <strong>expires after 30 days</strong> unless the debtor files a motion to extend it and overcomes the presumption that the new filing is not in good faith.</li>
-      <li><strong>If the second case is also dismissed and the debtor files a third time within one year of the second dismissal:</strong> Section 362(c)(4) applies. No automatic stay takes effect at all. The debtor must affirmatively petition the court to impose the stay, proving good faith with clear and convincing evidence.</li>
-    </ol>
-
-    <p>The combination creates a powerful deterrent. A debtor who has a case dismissed under 109(g) conditions and then refiles faces, at most, 30 days of automatic stay protection -- and may face none at all. The strategy of filing, dismissing, and refiling to perpetually invoke the automatic stay is effectively dead.</p>
-
-    <div class="statute-box">
-      <p><strong>For more on the automatic stay and repeat filer limits:</strong> See <a href="https://automaticstay.org">automaticstay.org</a> for a comprehensive guide to Section 362, including how Sections 362(c)(3) and 362(c)(4) work, how to file a motion to extend the stay, and what "good faith" means in this context.</p>
-    </div>
-  </div>
-
-  <!-- Section 7: How to Check If You're Barred -->
-  <div class="content-section">
-    <h2>How to Check If You Are Barred from Filing</h2>
-    <p>If you have had a prior bankruptcy case dismissed and are considering refiling, you need to determine two things: (1) whether Section 109(g) applies to your dismissal, and (2) whether the 180-day period has expired.</p>
-
-    <h3>Step 1: Find your prior case</h3>
-    <p>Look up your prior case on PACER (Public Access to Court Electronic Records) at <a href="https://pacer.uscourts.gov">pacer.uscourts.gov</a>. You will need a PACER account (free to register, $0.10 per page with a quarterly fee cap of $30). Search by your name and find the dismissed case. Note the case number and the court where it was filed.</p>
-
-    <h3>Step 2: Check the dismissal order</h3>
-    <p>Pull up the docket for your dismissed case and find the dismissal order. Look for these key pieces of information:</p>
-    <ul>
-      <li><strong>Date the dismissal order was entered.</strong> This is the start of the 180-day clock.</li>
-      <li><strong>Reason for dismissal.</strong> The order should state why the case was dismissed. Look for language like "willful failure to comply," "failure to obey orders of the court," or "failure to appear." If the order cites one of these reasons, 109(g)(1) may apply.</li>
-      <li><strong>Whether the dismissal was voluntary or involuntary.</strong> If you requested the dismissal, check whether any creditor had filed a motion for relief from stay before you filed your request to dismiss. If so, 109(g)(2) may apply.</li>
-    </ul>
-
-    <h3>Step 3: Check for stay relief motions</h3>
-    <p>If you voluntarily dismissed your prior case, review the docket for any motion for relief from the automatic stay filed before your dismissal request. Look for docket entries titled "Motion for Relief from Stay," "Motion to Lift Stay," or "Motion for Adequate Protection." If one was filed before your voluntary dismissal, 109(g)(2) is in play.</p>
-
-    <h3>Step 4: Count the days</h3>
-    <p>If 109(g) applies, count 180 calendar days from the date of the dismissal order. Use a calendar or date calculator. Your earliest filing date is day 181. If you are close to the line, add a day for safety.</p>
-
-    <div class="green-box">
-      <p><strong>If you are unsure:</strong> The safest approach is to wait the full 180 days from the dismissal date regardless of the reason for dismissal. If waiting is not an option -- for example, you are facing imminent foreclosure -- consult with a bankruptcy attorney who can review your specific docket and advise whether the bar applies.</p>
-    </div>
-  </div>
-
-  <!-- Section 8: When 109(g) Does NOT Apply -->
-  <div class="content-section">
-    <h2>When Section 109(g) Does NOT Apply</h2>
-    <p>The 180-day filing bar is narrower than many people think. It applies only in the two specific situations described above. Here are common scenarios where Section 109(g) does <strong>not</strong> bar you from refiling:</p>
-    <ul>
-      <li><strong>Voluntary dismissal with no pending stay relief motion.</strong> If you choose to dismiss your case and no creditor has filed a motion for relief from stay, 109(g)(2) does not apply. You can refile immediately (subject to 362(c)(3)/(c)(4) limitations).</li>
-      <li><strong>Dismissal for failing to complete credit counseling.</strong> This is a Section 109(h) eligibility issue, not willful disobedience of a court order.</li>
-      <li><strong>Dismissal for inability to make plan payments.</strong> Falling behind on Chapter 13 plan payments due to financial hardship is not willful defiance of court authority.</li>
-      <li><strong>Dismissal for failing the means test.</strong> A Section 707(b) dismissal is about income eligibility, not willful noncompliance.</li>
-      <li><strong>Cases that ended in discharge, not dismissal.</strong> Section 109(g) applies only to dismissed cases. If your prior case ended with a discharge, the filing bar is irrelevant. Discharge bars under Sections 727(a)(8)/(9) or 1328(f) may apply instead -- see <a href="https://1328f.com">1328f.com</a> for a free screener.</li>
-      <li><strong>Routine administrative dismissals.</strong> Dismissal for failure to pay the filing fee or failure to file a required certificate is generally not treated as "willful failure to abide by orders of the court" unless the debtor deliberately ignored specific court instructions.</li>
-    </ul>
-
-    <div class="statute-box">
-      <p><strong>The filing bar vs. the discharge bar:</strong> Filing bars (109(g)) and discharge bars (727(a)(8)/(9), 1328(f)) serve different purposes. A filing bar prevents you from filing any case at all for 180 days. A discharge bar allows you to file and receive the automatic stay, but prevents the court from eliminating your debts at the end. Filing bars are triggered by certain dismissals. Discharge bars are triggered by prior discharges. They can apply simultaneously if a debtor has both a qualifying dismissal and a prior discharge.</p>
-    </div>
   </div>
 
   <!-- CTA Box -->
   <div class="cta-box">
     <h3>Check Whether a Prior Case Affects Your Eligibility</h3>
-    <p>The free screener at 1328f.com checks both filing bars and discharge bars based on your prior case history. Enter a case number or filing dates to see whether you are eligible to file and receive a discharge.</p>
+    <p>The free screener at 1328f.com checks both filing bars and discharge bars based on your prior case history.</p>
     <div class="cta-links">
       <a href="https://1328f.com" class="primary-btn">Free Discharge Screener</a>
-      <a href="https://automaticstay.org" class="secondary-btn">Automatic Stay Guide</a>
-    </div>
-  </div>
-
-  <!-- Section 9: FAQ -->
-  <div class="content-section">
-    <h2>Frequently Asked Questions</h2>
-
-    <div class="faq-item">
-      <h3>What is the 180-day rule in bankruptcy?</h3>
-      <p>The 180-day rule refers to Section 109(g) of the Bankruptcy Code, which prevents a person from filing any new bankruptcy case for 180 calendar days after a prior case was dismissed under certain conditions. Unlike discharge bars (which let you file but block debt relief), Section 109(g) is a filing bar -- it prevents you from filing a petition at all. No case is opened, no automatic stay takes effect, and no creditor protection begins.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What triggers the 180-day filing bar?</h3>
-      <p>Two situations trigger the bar. Under 109(g)(1), it applies if your prior case was dismissed for willful failure to obey court orders or to appear before the court as required. Under 109(g)(2), it applies if you voluntarily dismissed your case after a creditor filed a motion for relief from the automatic stay. Both triggers create the same 180-day waiting period from the date of the dismissal order.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Can I file bankruptcy again after my case was dismissed?</h3>
-      <p>It depends on why your case was dismissed. If it was dismissed for reasons other than willful failure to obey court orders -- for example, failing to complete credit counseling, missing a filing deadline, or being unable to make plan payments -- Section 109(g) does not apply and you can refile immediately. However, even when the filing bar does not apply, repeat filings within one year trigger automatic stay limitations under Sections 362(c)(3) and 362(c)(4). See <a href="https://automaticstay.org">automaticstay.org</a> for details on repeat filer stay limits.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>How is the 180-day period calculated?</h3>
-      <p>The 180-day period runs from the date the dismissal order is entered by the court. It is counted in calendar days, not business days -- weekends and holidays are included. There is no tolling or pausing of the clock for any reason. If your case was dismissed on January 1, you can file a new petition on July 1 (the 181st day).</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>What happens if I file during the 180-day bar period?</h3>
-      <p>The outcome depends on your jurisdiction. Some courts treat Section 109(g) as jurisdictional and will dismiss the case on their own, even if no party objects. Other courts treat it as waivable, meaning the case can proceed unless a creditor, the trustee, or the U.S. Trustee raises the issue. Filing during the bar period risks dismissal, wasted filing fees, loss of any automatic stay protection, and compounding penalties for future filings.</p>
-    </div>
-
-    <div class="faq-item">
-      <h3>Does voluntary dismissal always trigger the 180-day bar?</h3>
-      <p>No. The bar under Section 109(g)(2) only applies to voluntary dismissals that follow a creditor's motion for relief from the automatic stay. If you voluntarily dismiss your case and no creditor has filed a stay relief motion, the bar does not apply. Courts are also split on whether the dismissal must have been caused by the stay relief motion (the causal connection test from <em>In re Frieouf</em>) or whether timing alone is enough.</p>
+      <a href="/calculator.html" class="secondary-btn">180-Day Calculator</a>
     </div>
   </div>
 
@@ -766,20 +606,18 @@
       <li><a href="https://www.law.cornell.edu/uscode/text/11/727">11 U.S.C. Section 727</a> -- Discharge in Chapter 7 (includes 727(a)(8) and 727(a)(9) discharge bars)</li>
       <li><a href="https://www.law.cornell.edu/uscode/text/11/1328">11 U.S.C. Section 1328</a> -- Discharge in Chapter 13 (includes 1328(f) discharge bar)</li>
       <li><em>In re Frieouf</em>, 938 F.2d 1099 (10th Cir. 1992) -- Causal connection required for 109(g)(2)</li>
-      <li><a href="https://www.uscourts.gov/services-forms/bankruptcy/bankruptcy-basics">Bankruptcy Basics</a> -- U.S. Courts overview</li>
-      <li><a href="https://automaticstay.org">automaticstay.org</a> -- Comprehensive guide to the automatic stay and repeat filer limits</li>
-      <li><a href="https://1328f.com/109g-filing-bar.html">109(g) on 1328f.com</a> -- Additional context with comparison tables</li>
     </ul>
   </div>
 
-</main>
+  <!-- Related Resources -->
+  <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1rem 1.5rem;max-width:700px;margin:2rem auto">
+    <p style="color:#f0f6fc;font-weight:600;margin-bottom:0.5rem">Related Resources</p>
+    <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0.25rem"><a href="https://serialfiler.org" style="color:#58a6ff">serialfiler.org</a> -- Automatic stay limits and filing bars for repeat filers</p>
+    <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0.25rem"><a href="https://dismissedbankruptcy.org" style="color:#58a6ff">dismissedbankruptcy.org</a> -- What happens when your case is dismissed and next steps</p>
+    <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0"><a href="https://727a8.com" style="color:#58a6ff">727a8.com</a> -- Eight-year bar between Chapter 7 discharges under Section 727(a)(8)</p>
+  </div>
 
-<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1rem 1.5rem;max-width:700px;margin:2rem auto">
-  <p style="color:#f0f6fc;font-weight:600;margin-bottom:0.5rem">Related Resources</p>
-  <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0.25rem"><a href="https://serialfiler.org" style="color:#58a6ff">Serial Filing Limits</a> -- Automatic stay limits and filing bars for repeat filers</p>
-  <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0.25rem"><a href="https://dismissedbankruptcy.org" style="color:#58a6ff">Dismissed Bankruptcy</a> -- What happens when your case is dismissed and next steps</p>
-  <p style="color:#9eaab6;font-size:0.9rem;margin-bottom:0"><a href="https://727a8.com" style="color:#58a6ff">Chapter 7 Discharge Bar</a> -- Eight-year bar between Chapter 7 discharges under Section 727(a)(8)</p>
-</div>
+</main>
 
 <footer class="network-footer" role="contentinfo">
   <p><strong>Part of the Bankruptcy Transparency Network</strong></p>
@@ -802,11 +640,20 @@
   <p class="disclaimer">This site provides general information only and does not constitute legal advice. No attorney-client relationship is created. Consult a licensed attorney for advice on your specific situation.</p>
 </footer>
 
-<script src="/btn-engage.js"></script>
+<div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1.5rem;text-align:center;max-width:900px;margin:2rem auto 0">
+  <p style="color:#f0f6fc;font-size:1.1rem;font-weight:600;margin-bottom:0.25rem">PACER cases made free through RECAP: <span id="recap-count" style="color:#58a6ff">0</span> of 37.9 million</p>
+  <p style="color:#9eaab6;font-size:0.85rem;margin-bottom:0.75rem">Every document we access becomes permanently free for the next researcher, attorney, or debtor.</p>
+  <div style="background:#21262d;border-radius:6px;height:22px;overflow:hidden;margin:0.75rem auto;max-width:400px"><div style="background:linear-gradient(90deg,#238636,#2ea043);height:100%;width:0%;border-radius:6px;min-width:2px"></div></div>
+  <p style="margin-bottom:0.25rem"><span style="color:#58a6ff;font-size:1.2rem;font-weight:700">$0</span> <span style="color:#9eaab6">of</span> <span style="color:#f0f6fc;font-size:1.2rem;font-weight:700">$5,000</span> <span style="color:#9eaab6">Q1 PACER research goal</span></p>
+  <p style="color:#9eaab6;font-size:0.8rem;margin-bottom:0.75rem">1,500+ hours. No grants, no institutional backing. 0 supporters so far.</p>
+  <a href="https://ko-fi.com/ilikemath9999" style="display:inline-block;background:#238636;color:#fff;padding:0.5rem 1.5rem;border-radius:6px;font-weight:600;font-size:0.9rem;text-decoration:none">Fund this research</a>
+</div>
 <div style="background:#161b22;border:1px solid #30363d;border-radius:6px;padding:1rem 1.5rem;text-align:center;max-width:700px;margin:2rem auto">
 <p style="color:#9eaab6;font-size:0.8rem;text-transform:uppercase;letter-spacing:0.05em;margin-bottom:0.25rem">Federal Rules Committee</p>
 <p style="color:#e6edf3;font-size:0.95rem;margin-bottom:0.25rem">This research supports <a href="https://www.uscourts.gov/forms-rules/records-rules-committees/rules-suggestions" style="color:#58a6ff">Suggestion 26-BK-3</a> to the Advisory Committee on Bankruptcy Rules</p>
 <p style="color:#9eaab6;font-size:0.8rem;margin:0">Proposing automated Section 1328(f) discharge bar screening in federal bankruptcy courts</p>
 </div>
+
+<script src="/btn-engage.js"></script>
 </body>
 </html>
