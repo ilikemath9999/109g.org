@@ -145,6 +145,100 @@
 <script type="application/ld+json">
 {"@context": "https://schema.org", "@type": "Organization", "name": "Open Bankruptcy Project", "url": "https://1328f.org", "description": "Free, open-source bankruptcy court transparency tools and research.", "foundingDate": "2026-03-27", "areaServed": "US", "nonprofitStatus": "Nonprofit501c3", "sameAs": ["https://1328f.com", "https://1328f.org"]}
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "109(g) vs Other Bars",
+      "description": "Compare Section 109(g) (180-day filing bar) with Section 727(a)(8) (8-year discharge bar), Section 1328(f) (Chapter 13 discharge bar), and Sections 362(c)(3)/(4",
+      "author": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Open Bankruptcy Project",
+        "url": "https://1328f.org"
+      },
+      "datePublished": "2026-03-28",
+      "dateModified": "2026-03-29",
+      "mainEntityOfPage": "https://109g.org/vs-other-bars.html"
+    },
+    {
+      "@type": "HowTo",
+      "name": "109(g) vs Other Bars",
+      "step": [
+        {
+          "@type": "HowToStep",
+          "position": 1,
+          "text": "window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n  gtag('config', 'G-053Z64N82F');\n\n\n\n109(g) vs Other Filing Bars -- Filing Bars, Disc"
+        },
+        {
+          "@type": "HowToStep",
+          "position": 2,
+          "text": "Duration: 180 days from the dismissal order."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 3,
+          "text": "Trigger: Willful failure to obey court orders (109(g)(1)) or voluntary dismissal after a stay relief motion (109(g)(2))."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 4,
+          "text": "Clock starts from: Date of dismissal order."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 5,
+          "text": "Effect: You can file a new case and receive the automatic stay, but the court cannot grant you a discharge at the end. Your debts are not eliminated."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 6,
+          "text": "Duration: 2 to 8 years, depending on the combination of chapters."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 7,
+          "text": "Trigger: A prior discharge (not a prior dismissal)."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 8,
+          "text": "Clock runs from: Filing date of the prior case to filing date of the new case."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 9,
+          "text": "Year 1: Debtor files Chapter 7 and receives a discharge."
+        },
+        {
+          "@type": "HowToStep",
+          "position": 10,
+          "text": "Year 3: Debtor files Chapter 13. The case is dismissed for willful failure to obey court orders (debtor ignored the 341 meeting)."
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "name": "109(g) vs Other Bars",
+      "url": "https://109g.org/vs-other-bars.html",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [
+          ".quick-answer",
+          "h1",
+          ".summary",
+          "p:first-of-type"
+        ]
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -233,7 +327,7 @@
       <tr>
         <td><strong style="color:var(--accent)">No stay</strong></td>
         <td>362(c)(4)</td>
-        <td>No automatic stay at all</td>
+        <td>No <a href="https://automaticstay.org" title="Automatic Stay in Bankruptcy -- Open Bankruptcy Project" target="_blank" rel="noopener">automatic stay</a> at all</td>
         <td>1 year lookback</td>
         <td>2+ prior dismissals in past year</td>
       </tr>
@@ -261,7 +355,7 @@
     </ul>
 
     <div class="statute-box">
-      <p><strong>Key difference:</strong> A filing bar is triggered by a <strong>dismissal</strong>. A discharge bar is triggered by a <strong>discharge</strong>. They are not mutually exclusive -- a debtor with both a dismissed case and an earlier discharged case can face both bars at the same time.</p>
+      <p><strong>Key difference:</strong> A filing bar is triggered by a <strong>dismissal</strong>. A <a href="https://dischargebar.org" title="Bankruptcy Discharge Bar -- Open Bankruptcy Project" target="_blank" rel="noopener">discharge bar</a> is triggered by a <strong>discharge</strong>. They are not mutually exclusive -- a debtor with both a dismissed case and an earlier discharged case can face both bars at the same time.</p>
     </div>
 
     <div class="green-box">
@@ -323,7 +417,7 @@
     <p>Consider this sequence:</p>
     <ol>
       <li><strong>Year 1:</strong> Debtor files Chapter 7 and receives a discharge.</li>
-      <li><strong>Year 3:</strong> Debtor files Chapter 13. The case is dismissed for willful failure to obey court orders (debtor ignored the 341 meeting).</li>
+      <li><strong>Year 3:</strong> Debtor files Chapter 13. The case is dismissed for willful failure to obey court orders (debtor ignored the <a href="https://341meeting.org" title="341 Meeting of Creditors -- Open Bankruptcy Project" target="_blank" rel="noopener">341 meeting</a>).</li>
       <li><strong>Year 3, Day 1:</strong> The 109(g)(1) filing bar begins. Debtor cannot file any case for 180 days.</li>
       <li><strong>Year 3, Day 181:</strong> The filing bar expires. Debtor can now file, BUT:
         <ul>
