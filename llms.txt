@@ -1,21 +1,22 @@
-# 11 USC 109 -- Section 109(g) Bankruptcy Filing Bar [2026 Guide]
+# 11 USC 109 - Section 109(g) Bankruptcy Filing Bar [2026 Guide]
 > Dismissed bankruptcy? Section 109(g) blocks refiling for 180 days. Learn both triggers, exceptions, and exactly when you can file again. Free 2026 guide.
 
 ## About
 109g.org is part of the Open Bankruptcy Project (openbankruptcyproject.org), a 501(c)(3) nonprofit building free, open-source tools for bankruptcy court transparency.
 
 ## Key Pages
-- The 180-Day Rule in Bankruptcy -- When You Cannot Refile -- 109(g): https://109g.org/180-day-rule.html
-- 180-Day Filing Bar Calculator -- Section 109(g): https://109g.org/calculator.html
-- Bankruptcy Dismissed for Cause -- Can I Refile? -- 109(g): https://109g.org/dismissed-for-cause.html
-- What You Can Do During the 180-Day Filing Bar -- 109(g): https://109g.org/how-to-get-around-it.html
-- 11 USC 109 -- Section 109(g) Bankruptcy Filing Bar: https://109g.org/
-- Serial Filer Protections -- How 109(g) and 362(c) Work Together: https://109g.org/serial-filer-protection.html
+- The 180-Day Rule in Bankruptcy - When You Cannot Refile - 109(g): https://109g.org/180-day-rule.html
+- 180-Day Filing Bar Calculator - Section 109(g): https://109g.org/calculator.html
+- Bankruptcy Dismissed for Cause - Can I Refile? - 109(g): https://109g.org/dismissed-for-cause.html
+- Section 109(g) FAQ - Bankruptcy Filing Bars Explained: https://109g.org/frequently-asked-questions.html
+- What You Can Do During the 180-Day Filing Bar - 109(g): https://109g.org/how-to-get-around-it.html
+- 11 USC 109 - Section 109(g) Bankruptcy Filing Bar: https://109g.org/
+- Serial Filer Protections - How 109(g) and 362(c) Work Together: https://109g.org/serial-filer-protection.html
 - Voluntary Dismissal and the 109(g)(1) Filing Bar: https://109g.org/voluntary-dismissal-bar.html
-- 109(g)(2) -- Voluntary Dismissal After a Relief from Stay Motion: https://109g.org/voluntary-dismissal.html
-- 109(g) vs Other Filing Bars -- Filing Bars, Discharge Bars, and Stay Limits: https://109g.org/vs-other-bars.html
-- 109(g)(1) -- Willful Failure to Obey Court Orders: https://109g.org/willful-failure.html
-- Section 109(g) FAQ -- Bankruptcy Filing Bars Explained: https://109g.org/frequently-asked-questions.html
+- 109(g)(2) - Voluntary Dismissal After a Relief from Stay Motion: https://109g.org/voluntary-dismissal.html
+- 109(g) vs Other Filing Bars - Filing Bars, Discharge Bars, and Stay Limits: https://109g.org/vs-other-bars.html
+- 109(g)(1) - Willful Failure to Obey Court Orders: https://109g.org/willful-failure.html
+- Privacy Policy: https://109g.org/privacy.html
 
 ## Contact
 - Website: https://openbankruptcyproject.org
